@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "schema": [
+    {
+      "name": "Document",
+      "num_children": 3
+    },
+    {
+      "type": "INT64",
+      "repetition_type": "REQUIRED",
+      "name": "DocId"
+    },
+    {
+      "repetition_type": "OPTIONAL",
+      "name": "Links",
+      "num_children": 2
+    },
+    {
+      "type": "INT64",
+      "repetition_type": "REPEATED",
+      "name": "Backward"
+    },
+    {
+      "type": "INT64",
+      "repetition_type": "REPEATED",
+      "name": "Forward"
+    },
+    {
+      "repetition_type": "REPEATED",
+      "name": "Name",
+      "num_children": 2
+    },
+    {
+      "repetition_type": "REPEATED",
+      "name": "Language",
+      "num_children": 2
+    },
+    {
+      "type": "BYTE_ARRAY",
+      "repetition_type": "REQUIRED",
+      "name": "Code"
+    },
+    {
+      "type": "BYTE_ARRAY",
+      "repetition_type": "OPTIONAL",
+      "name": "Country"
+    },
+    {
+      "type": "BYTE_ARRAY",
+      "repetition_type": "OPTIONAL",
+      "name": "Url"
+    }
+  ],
+  "num_rows": 2,
+  "row_groups": [
+    {
+      "columns": [
+        {
+          "file_offset": 4,
+          "meta_data": {
+            "type": "INT64",
+            "encodings": [
+              "PLAIN",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "DocId"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 2,
+            "total_uncompressed_size": 57,
+            "total_compressed_size": 57,
+            "data_page_offset": 4,
+            "statistics": {
+              "max": "FAAAAAAAAAA=",
+              "min": "CgAAAAAAAAA=",
+              "null_count": 0
+            }
+          }
+        },
+        {
+          "file_offset": 61,
+          "meta_data": {
+            "type": "INT64",
+            "encodings": [
+              "PLAIN",
+              "RLE"
+            ],
+            "path_in_schema": [
+              "Links",
+              "Backward"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 3,
+            "total_uncompressed_size": 70,
+            "total_compressed_size": 70,
+            "data_page_offset": 61,
+            "statistics": {
+              "max": "HgAAAAAAAAA=",
+              "min": "CgAAAAAAAAA=",
+              "null_count": 1
+            }
+          }
+        },
+        {
+          "file_offset": 131,
+          "meta_data": {
+            "type": "INT64",
+            "encodings": [
+              "PLAIN",
+              "RLE"
+            ],
+            "path_in_schema": [
+              "Links",
+              "Forward"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 4,
+            "total_uncompressed_size": 86,
+            "total_compressed_size": 86,
+            "data_page_offset": 131,
+            "statistics": {
+              "max": "UAAAAAAAAAA=",
+              "min": "FAAAAAAAAAA=",
+              "null_count": 0
+            }
+          }
+        },
+        {
+          "file_offset": 217,
+          "meta_data": {
+            "type": "BYTE_ARRAY",
+            "encodings": [
+              "PLAIN",
+              "RLE"
+            ],
+            "path_in_schema": [
+              "Name",
+              "Language",
+              "Code"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 5,
+            "total_uncompressed_size": 70,
+            "total_compressed_size": 70,
+            "data_page_offset": 217,
+            "statistics": {
+              "max": "ZW4tdXM=",
+              "min": "ZW4=",
+              "null_count": 2
+            }
+          }
+        },
+        {
+          "file_offset": 287,
+          "meta_data": {
+            "type": "BYTE_ARRAY",
+            "encodings": [
+              "PLAIN",
+              "RLE"
+            ],
+            "path_in_schema": [
+              "Name",
+              "Language",
+              "Country"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 5,
+            "total_uncompressed_size": 55,
+            "total_compressed_size": 55,
+            "data_page_offset": 287,
+            "statistics": {
+              "max": "dXM=",
+              "min": "Z2I=",
+              "null_count": 3
+            }
+          }
+        },
+        {
+          "file_offset": 342,
+          "meta_data": {
+            "type": "BYTE_ARRAY",
+            "encodings": [
+              "PLAIN",
+              "RLE"
+            ],
+            "path_in_schema": [
+              "Name",
+              "Url"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 4,
+            "total_uncompressed_size": 90,
+            "total_compressed_size": 90,
+            "data_page_offset": 342,
+            "statistics": {
+              "max": "aHR0cDovL0M=",
+              "min": "aHR0cDovL0E=",
+              "null_count": 1
+            }
+          }
+        }
+      ],
+      "total_byte_size": 428,
+      "num_rows": 2
+    }
+  ],
+  "created_by": "parquet-mr (build 6aa21f8776625b5fa6b18059cfebe7549f2e00cb)"
+}

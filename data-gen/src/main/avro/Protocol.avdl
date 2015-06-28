@@ -1,0 +1,6 @@
+@namespace("models")
+protocol Protocol {
+  record Min {
+    boolean f;
+  }
+}
