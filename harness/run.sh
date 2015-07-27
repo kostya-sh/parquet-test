@@ -36,7 +36,7 @@ function run_test {
         return 3
     fi
 
-    diff -q -u $actual_out $expected_out
+    diff -u $actual_out $expected_out
     e=$?
     if [ $e -ne 0 ] ; then
         echo "FAIL"
@@ -52,3 +52,6 @@ run_test Min1 schema
 
 run_test DremelPaperExample meta -json
 run_test DremelPaperExample schema
+
+run_test Booleans schema
+
