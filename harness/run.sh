@@ -54,4 +54,4 @@ run_test DremelPaperExample meta -json
 run_test DremelPaperExample schema
 
 run_test Booleans schema
-
+run_test Booleans dump -c=Required
