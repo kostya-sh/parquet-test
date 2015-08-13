@@ -1,21 +1,20 @@
 package gen;
 
-import static parquet.schema.Type.Repetition.OPTIONAL;
-import static parquet.schema.Type.Repetition.REPEATED;
-import static parquet.schema.Type.Repetition.REQUIRED;
+import static org.apache.parquet.schema.Type.Repetition.OPTIONAL;
+import static org.apache.parquet.schema.Type.Repetition.REPEATED;
+import static org.apache.parquet.schema.Type.Repetition.REQUIRED;
 
 import java.io.File;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-
-import parquet.example.data.Group;
-import parquet.example.data.simple.SimpleGroup;
-import parquet.hadoop.ParquetWriter;
-import parquet.hadoop.example.GroupWriteSupport;
-import parquet.schema.MessageType;
-import parquet.schema.PrimitiveType;
-import parquet.schema.PrimitiveType.PrimitiveTypeName;
+import org.apache.parquet.example.data.Group;
+import org.apache.parquet.example.data.simple.SimpleGroup;
+import org.apache.parquet.hadoop.ParquetWriter;
+import org.apache.parquet.hadoop.example.GroupWriteSupport;
+import org.apache.parquet.schema.MessageType;
+import org.apache.parquet.schema.PrimitiveType;
+import org.apache.parquet.schema.PrimitiveType.PrimitiveTypeName;
 
 public class BooleansGen {
     public static void main(String[] args) throws Exception {
@@ -48,11 +47,9 @@ public class BooleansGen {
           .append("Repeated", false);
 
 
-        GroupWriteSupport ws = new GroupWriteSupport();
-
         Configuration conf = new Configuration();
         GroupWriteSupport.setSchema(schema, conf);
-        ParquetWriter<Group> w = new ParquetWriter<Group>(p, conf, ws);
+        ParquetWriter<Group> w = new GroupParquetWriterBuilder(p).withConf(conf).build();
         w.write(r1);
         w.write(r2);
         w.write(r3);
