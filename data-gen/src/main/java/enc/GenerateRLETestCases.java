@@ -40,8 +40,23 @@ public class GenerateRLETestCases {
         printLine();
     }
 
+    private static void gen2RLERuns_10_Zeroes_9_Ones_1_bit() throws IOException {
+        out.println("2 RLE runs: 1-bit per value, 10x0, 9x1");
+        RunLengthBitPackingHybridEncoder e = new RunLengthBitPackingHybridEncoder(
+                1, 10, 10000);
+        for (int i = 0; i < 10; i++) {
+            e.writeInt(0);
+        }
+        for (int i = 0; i < 9; i++) {
+            e.writeInt(1);
+        }
+        printBytes(e.toBytes().toByteArray());
+        printLine();
+    }
+
     public static void main(String[] args) throws IOException {
         genSingleRLERun_10_Zeroes_1_bit();
         genSingleRLERun_300_Ones_20_bit();
+        gen2RLERuns_10_Zeroes_9_Ones_1_bit();
     }
 }
