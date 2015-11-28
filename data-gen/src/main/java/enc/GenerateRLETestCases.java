@@ -12,10 +12,11 @@ public class GenerateRLETestCases {
     }
 
     private static void printBytes(byte[] bytes) {
+        out.print("[]byte{");
         for (byte b : bytes) {
-            out.printf("0x%02X ", b);
+            out.printf("0x%02X, ", b);
         }
-        out.println();
+        out.println("}");
     }
 
     private static void genSingleRLERun_10_Zeroes_1_bit() throws IOException {
@@ -54,9 +55,59 @@ public class GenerateRLETestCases {
         printLine();
     }
 
+    private static void genSingleBitPackedRun_0to7_3bit() throws IOException {
+        out.println("1 bit-packed run: 3 bits per value, 0,1,2,3,4,5,6,7");
+        RunLengthBitPackingHybridEncoder e = new RunLengthBitPackingHybridEncoder(
+                3, 10, 10000);
+        for (int i = 0; i <= 7; i++) {
+            e.writeInt(i);
+        }
+        printBytes(e.toBytes().toByteArray());
+        printLine();
+    }
+
+    private static void genRLE_BitPacked_RLE_2bit() throws IOException {
+        out.println("RLE run, bit packed run, RLE run: 8x1, 0, 1, 2, 3, 3, 2, 1, 0, 10x2");
+        RunLengthBitPackingHybridEncoder e = new RunLengthBitPackingHybridEncoder(
+                2, 10, 10000);
+        e.writeInt(1);
+        e.writeInt(1);
+        e.writeInt(1);
+        e.writeInt(1);
+        e.writeInt(1);
+        e.writeInt(1);
+        e.writeInt(1);
+        e.writeInt(1);
+
+        e.writeInt(0);
+        e.writeInt(1);
+        e.writeInt(2);
+        e.writeInt(3);
+        e.writeInt(1);
+        e.writeInt(2);
+        e.writeInt(1);
+        e.writeInt(0);
+
+        e.writeInt(2);
+        e.writeInt(2);
+        e.writeInt(2);
+        e.writeInt(2);
+        e.writeInt(2);
+        e.writeInt(2);
+        e.writeInt(2);
+        e.writeInt(2);
+        e.writeInt(2);
+        e.writeInt(2);
+
+        printBytes(e.toBytes().toByteArray());
+        printLine();
+    }
+
     public static void main(String[] args) throws IOException {
         genSingleRLERun_10_Zeroes_1_bit();
         genSingleRLERun_300_Ones_20_bit();
         gen2RLERuns_10_Zeroes_9_Ones_1_bit();
+        genSingleBitPackedRun_0to7_3bit();
+        genRLE_BitPacked_RLE_2bit();
     }
 }
