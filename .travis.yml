@@ -1,0 +1,10 @@
+language: go
+
+go:
+- 1.5
+
+install: true
+
+script:
+- go get github.com/kostya-sh/parquet-go/parqueteur
+- harness/run.sh
