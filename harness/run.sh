@@ -55,3 +55,5 @@ run_test DremelPaperExample schema
 
 run_test Booleans schema
 run_test Booleans dump -c=Required
+#run_test Booleans dump -c=Optional
+#run_test Booleans dump -c=Repeated
