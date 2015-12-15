@@ -9,8 +9,9 @@ PARQUETEUR=parqueteur
 function run_test {
     local file=$1
     local cmd=$2
-    # TODO: support multiple options
-    local options=$3
+    shift
+    shift
+    local options=$@
 
     echo $cmd $options $file
 
@@ -20,8 +21,8 @@ function run_test {
         return 1
     fi
 
-    # TODO: remove some characters like command or space from options
-    local expected_out=$OUTPUTDIR/$cmd/$file$options.out
+    local opts=`echo $options | tr -d '[[:space:]]'`
+    local expected_out=$OUTPUTDIR/$cmd/$file$opts.out
     if [ ! -f $expected_out ] ; then
         echo "ERROR: file $expected_out with the expected output doesn't exist"
         return 2
@@ -55,5 +56,7 @@ run_test DremelPaperExample schema
 
 run_test Booleans schema
 run_test Booleans dump -c=Required
-#run_test Booleans dump -c=Optional
-#run_test Booleans dump -c=Repeated
+run_test Booleans dump -levels -c=Required
+run_test Booleans dump -c=Optional
+run_test Booleans dump -levels -c=Optional
+run_test Booleans dump -levels -c=Repeated
