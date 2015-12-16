@@ -60,3 +60,5 @@ run_test Booleans dump -levels -c=Required
 run_test Booleans dump -c=Optional
 run_test Booleans dump -levels -c=Optional
 run_test Booleans dump -levels -c=Repeated
+
+run_test AllTypes1000 dump -c=RequiredBoolean
