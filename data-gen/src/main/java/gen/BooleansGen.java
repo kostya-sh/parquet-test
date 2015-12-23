@@ -32,7 +32,7 @@ public class BooleansGen {
 
         SimpleGroup r2 = new SimpleGroup(schema);
         r2.add("Required", true);
-        r2.add("Optional", true);
+        r2.add("Optional", false);
 
         SimpleGroup r3 = new SimpleGroup(schema);
         r3.add("Required", false);
@@ -41,11 +41,20 @@ public class BooleansGen {
 
         SimpleGroup r4 = new SimpleGroup(schema);
         r4.add("Required", true);
-        r4.add("Optional", false);
+        r4.add("Optional", true);
         r4.append("Repeated", true)
-          .append("Repeated", true)
-          .append("Repeated", false);
+          .append("Repeated", false)
+          .append("Repeated", true);
 
+        // and minimal again
+        SimpleGroup r5 = new SimpleGroup(schema);
+        r5.add("Required", false);
+
+        // and full again
+        SimpleGroup r6 = new SimpleGroup(schema);
+        r6.add("Required", true);
+        r6.add("Optional", true);
+        r6.add("Repeated", true);
 
         Configuration conf = new Configuration();
         GroupWriteSupport.setSchema(schema, conf);
@@ -54,6 +63,8 @@ public class BooleansGen {
         w.write(r2);
         w.write(r3);
         w.write(r4);
+        w.write(r5);
+        w.write(r6);
         w.close();
     }
 }

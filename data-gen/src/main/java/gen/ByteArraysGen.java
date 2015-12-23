@@ -47,6 +47,15 @@ public class ByteArraysGen {
           .append("Repeated", "p4_2")
           .append("Repeated", "p4_3");
 
+        // and minimal again
+        SimpleGroup r5 = new SimpleGroup(schema);
+        r5.add("Required", "r5");
+
+        // and full again
+        SimpleGroup r6 = new SimpleGroup(schema);
+        r6.add("Required", "r6");
+        r6.add("Optional", "o6");
+        r6.add("Repeated", "p6_1");
 
         Configuration conf = new Configuration();
         GroupWriteSupport.setSchema(schema, conf);
@@ -55,6 +64,8 @@ public class ByteArraysGen {
         w.write(r2);
         w.write(r3);
         w.write(r4);
+        w.write(r5);
+        w.write(r6);
         w.close();
     }
 }
