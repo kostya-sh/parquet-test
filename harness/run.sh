@@ -28,7 +28,7 @@ function run_test {
         return 2
     fi
 
-    local actual_out=`mktemp`.out
+    local actual_out=`mktemp -t parquet-test`.out
 
     $PARQUETEUR $cmd $options $input 1>$actual_out
     local e=$?
