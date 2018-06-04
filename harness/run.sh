@@ -55,3 +55,4 @@ run_test DremelPaperExample meta -json
 run_test DremelPaperExample schema
 
 run_test AllTypes1000 dump -c=RequiredBoolean
+run_test AllTypes1000 dump -c=RequiredBinary
