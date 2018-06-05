@@ -63,7 +63,7 @@ public class AllTypesMultiPageGen {
 
             SimpleGroup r = new SimpleGroup(schema);
             r.add("RequiredBinary", Binary.fromConstantByteArray(randomBinary(rnd, rnd.nextInt(10) + 5)));
-            System.err.println(toString(r.getBinary("RequiredBinary", 0).getBytes()));
+            // System.err.println(new String(r.getBinary("RequiredBinary", 0).getBytes()));
             r.add("RequiredBoolean", rnd.nextBoolean());
             // System.err.println(r.getBoolean("RequiredBoolean", 0));
             r.add("RequiredDouble", rnd.nextDouble());
@@ -80,7 +80,7 @@ public class AllTypesMultiPageGen {
         w.close();
     }
 
-	private static String toString(byte[] bytes) {
+	public static String toString(byte[] bytes) {
 		StringBuilder sb = new StringBuilder();
 		for(byte b: bytes) {
 			if (sb.length() != 0) {
