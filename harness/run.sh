@@ -74,3 +74,4 @@ run_test DremelPaperExample dump -c=Name.Url -levels
 
 run_test AllTypes1000 pages -c=RequiredBoolean -json
 run_test AllTypes1000 pages -c=RequiredBinary -json
+run_test DremelPaperExample pages -c=Name.Language.Code -json

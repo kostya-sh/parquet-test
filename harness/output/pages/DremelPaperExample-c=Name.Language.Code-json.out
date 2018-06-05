@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "type": "DATA_PAGE",
+      "uncompressed_page_size": 38,
+      "compressed_page_size": 38,
+      "data_page_header": {
+        "num_values": 5,
+        "encoding": "PLAIN",
+        "definition_level_encoding": "RLE",
+        "repetition_level_encoding": "RLE",
+        "statistics": {
+          "max": "ZW4tdXM=",
+          "min": "ZW4=",
+          "null_count": 2
+        }
+      }
+    }
+  ]
+]

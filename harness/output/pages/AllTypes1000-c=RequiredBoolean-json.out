@@ -1,0 +1,36 @@
+[
+  [
+    {
+      "type": "DATA_PAGE",
+      "uncompressed_page_size": 65,
+      "compressed_page_size": 65,
+      "data_page_header": {
+        "num_values": 514,
+        "encoding": "PLAIN",
+        "definition_level_encoding": "BIT_PACKED",
+        "repetition_level_encoding": "BIT_PACKED",
+        "statistics": {
+          "max": "AQ==",
+          "min": "AA==",
+          "null_count": 0
+        }
+      }
+    },
+    {
+      "type": "DATA_PAGE",
+      "uncompressed_page_size": 61,
+      "compressed_page_size": 61,
+      "data_page_header": {
+        "num_values": 486,
+        "encoding": "PLAIN",
+        "definition_level_encoding": "BIT_PACKED",
+        "repetition_level_encoding": "BIT_PACKED",
+        "statistics": {
+          "max": "AQ==",
+          "min": "AA==",
+          "null_count": 0
+        }
+      }
+    }
+  ]
+]
