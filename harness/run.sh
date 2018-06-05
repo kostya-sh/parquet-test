@@ -4,6 +4,9 @@ BASEDIR=`dirname $0`
 INPUTDIR=$BASEDIR/input
 OUTPUTDIR=$BASEDIR/output
 PARQUETEUR=parqueteur
+if [ "$1" == "create" ] ; then
+    CREATE=yes
+fi
 
 # run_test <file name from input dir> <parqueteur command> <command options>
 function run_test {
@@ -23,12 +26,18 @@ function run_test {
 
     local opts=`echo $options | tr -d '[[:space:]]'`
     local expected_out=$OUTPUTDIR/$cmd/$file$opts.out
-    if [ ! -f $expected_out ] ; then
+    if [ ! "$CREATE" == "yes" -a ! -f $expected_out ] ; then
         echo "ERROR: file $expected_out with the expected output doesn't exist"
         return 2
     fi
 
-    local actual_out=`mktemp -t parquet-test`.out
+    local actual_out
+    if [ "$CREATE" == "yes" ] ; then
+        actual_out=$expected_out
+        mkdir -p `dirname $actual_out`
+    else
+        actual_out=`mktemp -t parquet-test`.out
+    fi
 
     $PARQUETEUR $cmd $options $input 1>$actual_out
     local e=$?
@@ -37,14 +46,16 @@ function run_test {
         return 3
     fi
 
-    diff -u $actual_out $expected_out
-    e=$?
-    if [ $e -ne 0 ] ; then
-        echo "FAIL"
-        return $e
-    else
-        echo "PASS"
-        return 0
+    if [ ! "$CREATE" == "yes" ] ; then
+        diff -u $actual_out $expected_out
+        e=$?
+        if [ $e -ne 0 ] ; then
+            echo "FAIL"
+            return $e
+        else
+            echo "PASS"
+            return 0
+        fi
     fi
 }
 
@@ -60,3 +71,6 @@ run_test AllTypes1000 dump -c=RequiredBinary
 run_test DremelPaperExample dump -c=Name.Language.Code -levels
 run_test DremelPaperExample dump -c=Name.Language.Country -levels
 run_test DremelPaperExample dump -c=Name.Url -levels
+
+run_test AllTypes1000 pages -c=RequiredBoolean -json
+run_test AllTypes1000 pages -c=RequiredBinary -json
