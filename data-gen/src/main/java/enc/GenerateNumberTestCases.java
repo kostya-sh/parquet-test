@@ -6,9 +6,8 @@ import java.io.IOException;
 
 import org.apache.parquet.bytes.HeapByteBufferAllocator;
 import org.apache.parquet.column.values.plain.PlainValuesWriter;
-import org.apache.parquet.io.api.Binary;
 
-public class GenerateByteArrayTestCases {
+public class GenerateNumberTestCases {
     private static final HeapByteBufferAllocator A = new HeapByteBufferAllocator();
 
     private static void printLine() {
@@ -23,12 +22,27 @@ public class GenerateByteArrayTestCases {
         out.println("}");
     }
 
-    private static void genMiscByteArrays() throws IOException {
+    private static void genFloats() throws IOException {
         PlainValuesWriter w = new PlainValuesWriter(10000, 10000,  A);
         
-        for (String s: new String[] {"123", "", "ABCDEF"}) {
-        	out.print("[]byte(\"" + s + "\"), ");
-        	w.writeBytes(Binary.fromConstantByteArray(s.getBytes()));
+        float[] values = new float[] {/* Float.NaN, */ Float.NEGATIVE_INFINITY, Float.POSITIVE_INFINITY, 0.0f, 1.0f, -1.0f};
+        for (float v: values) {
+        	out.print(v + ", ");
+        	w.writeFloat(v);
+        }
+        out.println();
+
+        printBytes(w.getBytes().toByteArray());
+        printLine();
+    }
+
+    private static void genDoubles() throws IOException {
+        PlainValuesWriter w = new PlainValuesWriter(10000, 10000,  A);
+        
+        double[] values = new double[] {Double.NaN, Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY, 0.0, 1.5, -1.25};
+        for (double v: values) {
+        	out.print(v + ", ");
+        	w.writeDouble(v);
         }
         out.println();
 
@@ -37,6 +51,7 @@ public class GenerateByteArrayTestCases {
     }
 
     public static void main(String[] args) throws IOException {
-    	genMiscByteArrays();
+    	genFloats();
+    	genDoubles();
     }
 } 

@@ -66,10 +66,12 @@ public class AllTypesMultiPageGen {
             // System.err.println(new String(r.getBinary("RequiredBinary", 0).getBytes()));
             r.add("RequiredBoolean", rnd.nextBoolean());
             // System.err.println(r.getBoolean("RequiredBoolean", 0));
-            r.add("RequiredDouble", rnd.nextDouble());
+            r.add("RequiredDouble", rnd.nextDouble() + 1);
+            // System.err.println(r.getDouble("RequiredDouble", 0));
             r.add("RequiredFixed10", Binary.fromConstantByteArray(randomBinary(rnd, 10)));
-            //System.err.println(r.getBinary("RequiredFixed10", 0).toStringUsingUTF8());
-            r.add("RequiredFloat", rnd.nextFloat());
+            // System.err.println(r.getBinary("RequiredFixed10", 0).toStringUsingUTF8());
+            r.add("RequiredFloat", rnd.nextFloat() + 1);
+            System.err.println(r.getFloat("RequiredFloat", 0));
             r.add("RequiredInt32", rnd.nextInt());
             r.add("RequiredInt64", rnd.nextLong());
             r.add("RequiredInt96", NanoTime.fromBinary(Binary.fromConstantByteArray(randomBinary(rnd, 12))));

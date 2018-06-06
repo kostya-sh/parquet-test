@@ -68,6 +68,8 @@ run_test DremelPaperExample schema
 run_test AllTypes1000 dump -c=RequiredBoolean
 run_test AllTypes1000 dump -c=RequiredBinary
 run_test AllTypes1000 dump -c=RequiredFixed10
+run_test AllTypes1000 dump -c=RequiredFloat
+run_test AllTypes1000 dump -c=RequiredDouble
 
 run_test DremelPaperExample dump -c=Name.Language.Code -levels
 run_test DremelPaperExample dump -c=Name.Language.Country -levels
