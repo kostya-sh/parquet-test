@@ -49,9 +49,39 @@ public class GenerateNumberTestCases {
         printBytes(w.getBytes().toByteArray());
         printLine();
     }
+    
+    private static void genInt32s() throws IOException {
+        PlainValuesWriter w = new PlainValuesWriter(10000, 10000,  A);
+        
+        int[] values = new int[] {Integer.MIN_VALUE, Integer.MAX_VALUE, 0, -100, 234};
+        for (int v: values) {
+        	out.print(v + ", ");
+        	w.writeInteger(v);
+        }
+        out.println();
 
+        printBytes(w.getBytes().toByteArray());
+        printLine();
+    }
+    
+    private static void genInt64s() throws IOException {
+        PlainValuesWriter w = new PlainValuesWriter(10000, 10000,  A);
+        
+        long[] values = new long[] {Long.MIN_VALUE, Long.MAX_VALUE, 0, -100, 234};
+        for (long v: values) {
+        	out.print(v + ", ");
+        	w.writeLong(v);
+        }
+        out.println();
+
+        printBytes(w.getBytes().toByteArray());
+        printLine();
+    }
+    
     public static void main(String[] args) throws IOException {
     	genFloats();
     	genDoubles();
+    	genInt32s();
+    	genInt64s();
     }
 } 
