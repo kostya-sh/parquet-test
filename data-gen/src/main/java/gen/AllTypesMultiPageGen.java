@@ -54,6 +54,7 @@ public class AllTypesMultiPageGen {
         ParquetWriter<Group> w = new GroupParquetWriterBuilder(p)
                 .withConf(conf)
                 .withPageSize(64)
+                .withDictionaryEncoding(false)
                 .withRowGroupSize(1024*1024)
                 .build();
 
@@ -75,8 +76,9 @@ public class AllTypesMultiPageGen {
             r.add("RequiredInt32", rnd.nextInt());
             // System.err.println(r.getInteger("RequiredInt32", 0));
             r.add("RequiredInt64", rnd.nextLong());
-            System.err.println(r.getLong("RequiredInt64", 0));
+            // System.err.println(r.getLong("RequiredInt64", 0));
             r.add("RequiredInt96", NanoTime.fromBinary(Binary.fromConstantByteArray(randomBinary(rnd, 12))));
+            // System.err.println(toString(r.getInt96("RequiredInt96", 0).getBytes()));
 
             //System.err.println(r);
             w.write(r);

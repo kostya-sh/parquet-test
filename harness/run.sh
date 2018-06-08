@@ -72,6 +72,7 @@ run_test AllTypes1000 dump -c=RequiredFloat
 run_test AllTypes1000 dump -c=RequiredDouble
 run_test AllTypes1000 dump -c=RequiredInt32
 run_test AllTypes1000 dump -c=RequiredInt64
+run_test AllTypes1000 dump -c=RequiredInt96
 
 run_test DremelPaperExample dump -c=Name.Language.Code -levels
 run_test DremelPaperExample dump -c=Name.Language.Country -levels
