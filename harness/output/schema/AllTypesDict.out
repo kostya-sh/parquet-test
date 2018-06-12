@@ -1,0 +1,10 @@
+message AllTypes {
+  required boolean Boolean;
+  required byte_array ByteArray;
+  required fixed_len_byte_array(10) FixedLenByteArray;
+  required float Float;
+  required double Double;
+  required int32 Int32;
+  required int64 Int64;
+  required int96 Int96;
+}

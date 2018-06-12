@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "schema": [
+    {
+      "name": "AllTypes",
+      "num_children": 8
+    },
+    {
+      "type": "BOOLEAN",
+      "repetition_type": "REQUIRED",
+      "name": "Boolean"
+    },
+    {
+      "type": "BYTE_ARRAY",
+      "repetition_type": "REQUIRED",
+      "name": "ByteArray"
+    },
+    {
+      "type": "FIXED_LEN_BYTE_ARRAY",
+      "type_length": 10,
+      "repetition_type": "REQUIRED",
+      "name": "FixedLenByteArray"
+    },
+    {
+      "type": "FLOAT",
+      "repetition_type": "REQUIRED",
+      "name": "Float"
+    },
+    {
+      "type": "DOUBLE",
+      "repetition_type": "REQUIRED",
+      "name": "Double"
+    },
+    {
+      "type": "INT32",
+      "repetition_type": "REQUIRED",
+      "name": "Int32"
+    },
+    {
+      "type": "INT64",
+      "repetition_type": "REQUIRED",
+      "name": "Int64"
+    },
+    {
+      "type": "INT96",
+      "repetition_type": "REQUIRED",
+      "name": "Int96"
+    }
+  ],
+  "num_rows": 200,
+  "row_groups": [
+    {
+      "columns": [
+        {
+          "file_offset": 4,
+          "meta_data": {
+            "type": "BOOLEAN",
+            "encodings": [
+              "BIT_PACKED",
+              "PLAIN"
+            ],
+            "path_in_schema": [
+              "Boolean"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 200,
+            "total_uncompressed_size": 59,
+            "total_compressed_size": 59,
+            "data_page_offset": 4,
+            "statistics": {
+              "max": "AQ==",
+              "min": "AQ==",
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 1
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 63,
+          "meta_data": {
+            "type": "BYTE_ARRAY",
+            "encodings": [
+              "PLAIN_DICTIONARY",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "ByteArray"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 200,
+            "total_uncompressed_size": 397,
+            "total_compressed_size": 397,
+            "data_page_offset": 63,
+            "statistics": {
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DICTIONARY_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 1
+              },
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 5
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 460,
+          "meta_data": {
+            "type": "FIXED_LEN_BYTE_ARRAY",
+            "encodings": [
+              "BIT_PACKED",
+              "PLAIN"
+            ],
+            "path_in_schema": [
+              "FixedLenByteArray"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 200,
+            "total_uncompressed_size": 2236,
+            "total_compressed_size": 2236,
+            "data_page_offset": 460,
+            "statistics": {
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 5
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 2696,
+          "meta_data": {
+            "type": "FLOAT",
+            "encodings": [
+              "PLAIN_DICTIONARY",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "Float"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 200,
+            "total_uncompressed_size": 353,
+            "total_compressed_size": 353,
+            "data_page_offset": 2696,
+            "statistics": {
+              "max": "KkPaPw==",
+              "min": "qk6RPw==",
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DICTIONARY_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 1
+              },
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 5
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 3049,
+          "meta_data": {
+            "type": "DOUBLE",
+            "encodings": [
+              "PLAIN_DICTIONARY",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "Double"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 200,
+            "total_uncompressed_size": 450,
+            "total_compressed_size": 450,
+            "data_page_offset": 3049,
+            "statistics": {
+              "max": "fp91w2wg/z8=",
+              "min": "gmsB8C5f8D8=",
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DICTIONARY_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 1
+              },
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 5
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 3499,
+          "meta_data": {
+            "type": "INT32",
+            "encodings": [
+              "PLAIN_DICTIONARY",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "Int32"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 200,
+            "total_uncompressed_size": 353,
+            "total_compressed_size": 353,
+            "data_page_offset": 3499,
+            "statistics": {
+              "max": "nowZJw==",
+              "min": "CCP3iw==",
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DICTIONARY_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 1
+              },
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 5
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 3852,
+          "meta_data": {
+            "type": "INT64",
+            "encodings": [
+              "PLAIN_DICTIONARY",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "Int64"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 200,
+            "total_uncompressed_size": 450,
+            "total_compressed_size": 450,
+            "data_page_offset": 3852,
+            "statistics": {
+              "max": "Q5zo9l6PXAI=",
+              "min": "xzqGvPbtjog=",
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DICTIONARY_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 1
+              },
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 5
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 4302,
+          "meta_data": {
+            "type": "INT96",
+            "encodings": [
+              "PLAIN_DICTIONARY",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "Int96"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 200,
+            "total_uncompressed_size": 270,
+            "total_compressed_size": 270,
+            "data_page_offset": 4302,
+            "statistics": {
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DICTIONARY_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 1
+              },
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN_DICTIONARY",
+                "count": 5
+              }
+            ]
+          }
+        }
+      ],
+      "total_byte_size": 4568,
+      "num_rows": 200
+    }
+  ],
+  "key_value_metadata": [
+    {
+      "key": "writer.model.name",
+      "value": "example"
+    }
+  ],
+  "created_by": "parquet-mr version 1.10.0 (build 031a6654009e3b82020012a18434c582bd74c73a)"
+}

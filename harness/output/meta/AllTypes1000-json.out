@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "schema": [
+    {
+      "name": "AllTypes",
+      "num_children": 8
+    },
+    {
+      "type": "BYTE_ARRAY",
+      "repetition_type": "REQUIRED",
+      "name": "RequiredBinary"
+    },
+    {
+      "type": "BOOLEAN",
+      "repetition_type": "REQUIRED",
+      "name": "RequiredBoolean"
+    },
+    {
+      "type": "DOUBLE",
+      "repetition_type": "REQUIRED",
+      "name": "RequiredDouble"
+    },
+    {
+      "type": "FIXED_LEN_BYTE_ARRAY",
+      "type_length": 10,
+      "repetition_type": "REQUIRED",
+      "name": "RequiredFixed10"
+    },
+    {
+      "type": "FLOAT",
+      "repetition_type": "REQUIRED",
+      "name": "RequiredFloat"
+    },
+    {
+      "type": "INT32",
+      "repetition_type": "REQUIRED",
+      "name": "RequiredInt32"
+    },
+    {
+      "type": "INT64",
+      "repetition_type": "REQUIRED",
+      "name": "RequiredInt64"
+    },
+    {
+      "type": "INT96",
+      "repetition_type": "REQUIRED",
+      "name": "RequiredInt96"
+    }
+  ],
+  "num_rows": 1000,
+  "row_groups": [
+    {
+      "columns": [
+        {
+          "file_offset": 4,
+          "meta_data": {
+            "type": "BYTE_ARRAY",
+            "encodings": [
+              "PLAIN",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "RequiredBinary"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 1000,
+            "total_uncompressed_size": 19876,
+            "total_compressed_size": 19876,
+            "data_page_offset": 4,
+            "statistics": {
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 139
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 19880,
+          "meta_data": {
+            "type": "BOOLEAN",
+            "encodings": [
+              "PLAIN",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "RequiredBoolean"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 1000,
+            "total_uncompressed_size": 196,
+            "total_compressed_size": 196,
+            "data_page_offset": 19880,
+            "statistics": {
+              "max": "AQ==",
+              "min": "AA==",
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 2
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 20076,
+          "meta_data": {
+            "type": "DOUBLE",
+            "encodings": [
+              "PLAIN",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "RequiredDouble"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 1000,
+            "total_uncompressed_size": 13608,
+            "total_compressed_size": 13608,
+            "data_page_offset": 20076,
+            "statistics": {
+              "max": "N5O3DZn2/z8=",
+              "min": "FJy5pzgB8D8=",
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 89
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 33684,
+          "meta_data": {
+            "type": "FIXED_LEN_BYTE_ARRAY",
+            "encodings": [
+              "PLAIN",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "RequiredFixed10"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 1000,
+            "total_uncompressed_size": 15639,
+            "total_compressed_size": 15639,
+            "data_page_offset": 33684,
+            "statistics": {
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 120
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 49323,
+          "meta_data": {
+            "type": "FLOAT",
+            "encodings": [
+              "PLAIN",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "RequiredFloat"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 1000,
+            "total_uncompressed_size": 6443,
+            "total_compressed_size": 6443,
+            "data_page_offset": 49323,
+            "statistics": {
+              "max": "OPv/Pw==",
+              "min": "00SAPw==",
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 52
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 55766,
+          "meta_data": {
+            "type": "INT32",
+            "encodings": [
+              "PLAIN",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "RequiredInt32"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 1000,
+            "total_uncompressed_size": 6443,
+            "total_compressed_size": 6443,
+            "data_page_offset": 55766,
+            "statistics": {
+              "max": "UyqWfw==",
+              "min": "FkUCgA==",
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 52
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 62209,
+          "meta_data": {
+            "type": "INT64",
+            "encodings": [
+              "PLAIN",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "RequiredInt64"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 1000,
+            "total_uncompressed_size": 13608,
+            "total_compressed_size": 13608,
+            "data_page_offset": 62209,
+            "statistics": {
+              "max": "u0ahXEyz8n8=",
+              "min": "+5ubl58KE4A=",
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 89
+              }
+            ]
+          }
+        },
+        {
+          "file_offset": 75817,
+          "meta_data": {
+            "type": "INT96",
+            "encodings": [
+              "PLAIN",
+              "BIT_PACKED"
+            ],
+            "path_in_schema": [
+              "RequiredInt96"
+            ],
+            "codec": "UNCOMPRESSED",
+            "num_values": 1000,
+            "total_uncompressed_size": 15252,
+            "total_compressed_size": 15252,
+            "data_page_offset": 75817,
+            "statistics": {
+              "null_count": 0
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 139
+              }
+            ]
+          }
+        }
+      ],
+      "total_byte_size": 91065,
+      "num_rows": 1000
+    }
+  ],
+  "key_value_metadata": [
+    {
+      "key": "writer.model.name",
+      "value": "example"
+    }
+  ],
+  "created_by": "parquet-mr version 1.10.0 (build 031a6654009e3b82020012a18434c582bd74c73a)"
+}

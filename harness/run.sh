@@ -60,10 +60,14 @@ function run_test {
 }
 
 run_test Min1 meta -json
-run_test Min1 schema
-
 run_test DremelPaperExample meta -json
+run_test AllTypes1000 meta -json
+run_test AllTypesDict meta -json
+
+run_test Min1 schema
 run_test DremelPaperExample schema
+run_test AllTypes1000 schema
+run_test AllTypesDict schema
 
 run_test AllTypes1000 dump -c=RequiredBoolean
 run_test AllTypes1000 dump -c=RequiredBinary

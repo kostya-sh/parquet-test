@@ -1,0 +1,10 @@
+message AllTypes {
+  required byte_array RequiredBinary;
+  required boolean RequiredBoolean;
+  required double RequiredDouble;
+  required fixed_len_byte_array(10) RequiredFixed10;
+  required float RequiredFloat;
+  required int32 RequiredInt32;
+  required int64 RequiredInt64;
+  required int96 RequiredInt96;
+}
