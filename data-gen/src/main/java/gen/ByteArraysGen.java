@@ -26,37 +26,44 @@ public class ByteArraysGen {
                 new MessageType("ByteArrays",
                     new PrimitiveType(REQUIRED, BINARY, "Required", UTF8),
                     new PrimitiveType(OPTIONAL, BINARY, "Optional", UTF8),
-                    new PrimitiveType(REPEATED, BINARY, "Repeated", UTF8));
+                    new PrimitiveType(REPEATED, BINARY, "Repeated", UTF8),
+                    new PrimitiveType(REQUIRED, BINARY, "Dict", UTF8));
         // from minimal to full
         SimpleGroup r1 = new SimpleGroup(schema);
         r1.add("Required", "r1");
+        r1.add("Dict", "parquet");
 
         SimpleGroup r2 = new SimpleGroup(schema);
         r2.add("Required", "r2");
         r2.add("Optional", "o2");
+        r2.add("Dict", "go");
 
         SimpleGroup r3 = new SimpleGroup(schema);
         r3.add("Required", "r3");
         r3.add("Optional", "o3");
         r3.add("Repeated", "p3_1");
-
+        r3.add("Dict", "parquet");
+        
         SimpleGroup r4 = new SimpleGroup(schema);
         r4.add("Required", "r4");
         r4.add("Optional", "o4");
         r4.append("Repeated", "p4_1")
           .append("Repeated", "p4_2")
           .append("Repeated", "p4_3");
-
+        r4.add("Dict", "go");
+        
         // and minimal again
         SimpleGroup r5 = new SimpleGroup(schema);
         r5.add("Required", "r5");
-
+        r5.add("Dict", "parquet");
+        
         // and full again
         SimpleGroup r6 = new SimpleGroup(schema);
         r6.add("Required", "r6");
         r6.add("Optional", "o6");
         r6.add("Repeated", "p6_1");
-
+        r6.add("Dict", "go");
+        
         Configuration conf = new Configuration();
         GroupWriteSupport.setSchema(schema, conf);
         ParquetWriter<Group> w = new GroupParquetWriterBuilder(p).withConf(conf).build();

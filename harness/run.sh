@@ -81,6 +81,11 @@ run_test DremelPaperExample dump -c=Name.Language.Code -levels
 run_test DremelPaperExample dump -c=Name.Language.Country -levels
 run_test DremelPaperExample dump -c=Name.Url -levels
 
+run_test AllTypesDict dump -c=ByteArray
+
 run_test AllTypes1000 pages -c=RequiredBoolean -json
 run_test AllTypes1000 pages -c=RequiredBinary -json
+
 run_test DremelPaperExample pages -c=Name.Language.Code -json
+
+run_test AllTypesDict pages -c=ByteArray -json

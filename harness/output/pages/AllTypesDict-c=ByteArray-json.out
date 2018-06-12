@@ -1,0 +1,78 @@
+[
+  [
+    {
+      "type": "DATA_PAGE",
+      "uncompressed_page_size": 41,
+      "compressed_page_size": 41,
+      "data_page_header": {
+        "num_values": 101,
+        "encoding": "PLAIN_DICTIONARY",
+        "definition_level_encoding": "BIT_PACKED",
+        "repetition_level_encoding": "BIT_PACKED",
+        "statistics": {
+          "null_count": 0
+        }
+      },
+      "dictionary_page_header": {
+        "num_values": 5,
+        "encoding": "PLAIN_DICTIONARY"
+      }
+    },
+    {
+      "type": "DATA_PAGE",
+      "uncompressed_page_size": 23,
+      "compressed_page_size": 23,
+      "data_page_header": {
+        "num_values": 51,
+        "encoding": "PLAIN_DICTIONARY",
+        "definition_level_encoding": "BIT_PACKED",
+        "repetition_level_encoding": "BIT_PACKED",
+        "statistics": {
+          "null_count": 0
+        }
+      }
+    },
+    {
+      "type": "DATA_PAGE",
+      "uncompressed_page_size": 14,
+      "compressed_page_size": 14,
+      "data_page_header": {
+        "num_values": 26,
+        "encoding": "PLAIN_DICTIONARY",
+        "definition_level_encoding": "BIT_PACKED",
+        "repetition_level_encoding": "BIT_PACKED",
+        "statistics": {
+          "null_count": 0
+        }
+      }
+    },
+    {
+      "type": "DATA_PAGE",
+      "uncompressed_page_size": 8,
+      "compressed_page_size": 8,
+      "data_page_header": {
+        "num_values": 14,
+        "encoding": "PLAIN_DICTIONARY",
+        "definition_level_encoding": "BIT_PACKED",
+        "repetition_level_encoding": "BIT_PACKED",
+        "statistics": {
+          "null_count": 0
+        }
+      }
+    },
+    {
+      "type": "DATA_PAGE",
+      "uncompressed_page_size": 5,
+      "compressed_page_size": 5,
+      "data_page_header": {
+        "num_values": 8,
+        "encoding": "PLAIN_DICTIONARY",
+        "definition_level_encoding": "BIT_PACKED",
+        "repetition_level_encoding": "BIT_PACKED",
+        "statistics": {
+          "null_count": 0
+        }
+      }
+    }
+  ]
+]
