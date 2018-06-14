@@ -60,7 +60,8 @@ public class AllTypesDict {
 
         // NOTE: Do not change field initialization order and add new fields to the end!
         for (int i = 0; i < 200; i++) {
-            rnd.setSeed(i % 5);
+            rnd.setSeed(i);
+            rnd.setSeed(rnd.nextInt(5));
 
             SimpleGroup r = new SimpleGroup(schema);
 
