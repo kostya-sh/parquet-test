@@ -98,3 +98,6 @@ run_test AllTypes1000 pages -c=RequiredBinary -json
 run_test DremelPaperExample pages -c=Name.Language.Code -json
 
 run_test AllTypesDict pages -c=ByteArray -json
+
+run_test AllTypesDict csv
+
