@@ -20,6 +20,7 @@ import org.apache.parquet.example.data.simple.NanoTime;
 import org.apache.parquet.example.data.simple.SimpleGroup;
 import org.apache.parquet.hadoop.ParquetWriter;
 import org.apache.parquet.hadoop.example.GroupWriteSupport;
+import org.apache.parquet.hadoop.metadata.CompressionCodecName;
 import org.apache.parquet.io.api.Binary;
 import org.apache.parquet.schema.MessageType;
 import org.apache.parquet.schema.PrimitiveType;
@@ -36,6 +37,11 @@ public class AllTypesDict {
     public static void main(String[] args) throws Exception {
         new File(args[0]).delete();
         Path p = new Path(args[0]);
+        
+        CompressionCodecName codec = CompressionCodecName.UNCOMPRESSED;
+        if (args.length > 1) {
+        	codec = CompressionCodecName.valueOf(args[1].toUpperCase());
+        }
 
         MessageType schema = new MessageType("AllTypes",
         		new PrimitiveType(REQUIRED, BOOLEAN, "Boolean"),
@@ -56,6 +62,7 @@ public class AllTypesDict {
                 .withPageSize(64)
                 .withDictionaryEncoding(true)
                 .withRowGroupSize(1024*1024)
+                .withCompressionCodec(codec)
                 .build();
 
         // NOTE: Do not change field initialization order and add new fields to the end!

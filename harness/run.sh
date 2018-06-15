@@ -100,4 +100,5 @@ run_test DremelPaperExample pages -c=Name.Language.Code -json
 run_test AllTypesDict pages -c=ByteArray -json
 
 run_test AllTypesDict csv
+run_test AllTypesDict_GZIP csv
 

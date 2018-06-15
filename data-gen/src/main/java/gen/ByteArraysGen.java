@@ -14,6 +14,7 @@ import org.apache.parquet.example.data.Group;
 import org.apache.parquet.example.data.simple.SimpleGroup;
 import org.apache.parquet.hadoop.ParquetWriter;
 import org.apache.parquet.hadoop.example.GroupWriteSupport;
+import org.apache.parquet.hadoop.metadata.CompressionCodecName;
 import org.apache.parquet.schema.MessageType;
 import org.apache.parquet.schema.PrimitiveType;
 
@@ -21,6 +22,11 @@ public class ByteArraysGen {
     public static void main(String[] args) throws Exception {
         new File(args[0]).delete();
         Path p = new Path(args[0]);
+        
+        CompressionCodecName codec = CompressionCodecName.UNCOMPRESSED;
+        if (args.length > 1) {
+        	codec = CompressionCodecName.valueOf(args[1].toUpperCase());
+        }
 
         MessageType schema =
                 new MessageType("ByteArrays",
@@ -66,7 +72,10 @@ public class ByteArraysGen {
         
         Configuration conf = new Configuration();
         GroupWriteSupport.setSchema(schema, conf);
-        ParquetWriter<Group> w = new GroupParquetWriterBuilder(p).withConf(conf).build();
+        ParquetWriter<Group> w = new GroupParquetWriterBuilder(p)
+        		.withConf(conf)
+        		.withCompressionCodec(codec)
+        		.build();
         w.write(r1);
         w.write(r2);
         w.write(r3);
