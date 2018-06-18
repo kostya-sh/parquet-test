@@ -12,7 +12,9 @@
         "statistics": {
           "max": "AQ==",
           "min": "AA==",
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "AQ==",
+          "min_value": "AA=="
         }
       }
     },
@@ -28,7 +30,9 @@
         "statistics": {
           "max": "AQ==",
           "min": "AA==",
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "AQ==",
+          "min_value": "AA=="
         }
       }
     }

@@ -10,9 +10,9 @@
         "definition_level_encoding": "RLE",
         "repetition_level_encoding": "RLE",
         "statistics": {
-          "max": "ZW4tdXM=",
-          "min": "ZW4=",
-          "null_count": 2
+          "null_count": 2,
+          "max_value": "ZW4tdXM=",
+          "min_value": "ZW4="
         }
       }
     }

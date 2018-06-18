@@ -70,7 +70,9 @@
             "statistics": {
               "max": "AQ==",
               "min": "AQ==",
-              "null_count": 0
+              "null_count": 0,
+              "max_value": "AQ==",
+              "min_value": "AQ=="
             },
             "encoding_stats": [
               {
@@ -98,7 +100,9 @@
             "total_compressed_size": 397,
             "data_page_offset": 63,
             "statistics": {
-              "null_count": 0
+              "null_count": 0,
+              "max_value": "cnBkdkxWaE9SUnZXZA==",
+              "min_value": "RHtcbmBvaw=="
             },
             "encoding_stats": [
               {
@@ -131,7 +135,9 @@
             "total_compressed_size": 2236,
             "data_page_offset": 460,
             "statistics": {
-              "null_count": 0
+              "null_count": 0,
+              "max_value": "cU9bY3dPeUhocw==",
+              "min_value": "RVRCbldSY1ZvZQ=="
             },
             "encoding_stats": [
               {
@@ -161,7 +167,9 @@
             "statistics": {
               "max": "KkPaPw==",
               "min": "qk6RPw==",
-              "null_count": 0
+              "null_count": 0,
+              "max_value": "KkPaPw==",
+              "min_value": "qk6RPw=="
             },
             "encoding_stats": [
               {
@@ -196,7 +204,9 @@
             "statistics": {
               "max": "fp91w2wg/z8=",
               "min": "gmsB8C5f8D8=",
-              "null_count": 0
+              "null_count": 0,
+              "max_value": "fp91w2wg/z8=",
+              "min_value": "gmsB8C5f8D8="
             },
             "encoding_stats": [
               {
@@ -231,7 +241,9 @@
             "statistics": {
               "max": "nowZJw==",
               "min": "CCP3iw==",
-              "null_count": 0
+              "null_count": 0,
+              "max_value": "nowZJw==",
+              "min_value": "CCP3iw=="
             },
             "encoding_stats": [
               {
@@ -266,7 +278,9 @@
             "statistics": {
               "max": "Q5zo9l6PXAI=",
               "min": "xzqGvPbtjog=",
-              "null_count": 0
+              "null_count": 0,
+              "max_value": "Q5zo9l6PXAI=",
+              "min_value": "xzqGvPbtjog="
             },
             "encoding_stats": [
               {
@@ -326,5 +340,31 @@
       "value": "example"
     }
   ],
-  "created_by": "parquet-mr version 1.10.0 (build 031a6654009e3b82020012a18434c582bd74c73a)"
+  "created_by": "parquet-mr version 1.10.0 (build 031a6654009e3b82020012a18434c582bd74c73a)",
+  "column_orders": [
+    {
+      "TYPE_ORDER": {}
+    },
+    {
+      "TYPE_ORDER": {}
+    },
+    {
+      "TYPE_ORDER": {}
+    },
+    {
+      "TYPE_ORDER": {}
+    },
+    {
+      "TYPE_ORDER": {}
+    },
+    {
+      "TYPE_ORDER": {}
+    },
+    {
+      "TYPE_ORDER": {}
+    },
+    {
+      "TYPE_ORDER": {}
+    }
+  ]
 }

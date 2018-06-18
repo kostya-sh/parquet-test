@@ -10,7 +10,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fGhFaHtSck5cbGtZSWw=",
+          "min_value": "QWJfb1FmXVY="
         }
       }
     },
@@ -24,7 +26,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e3hESXxce3p7dHJOYUY=",
+          "min_value": "Q0xYZnM="
         }
       }
     },
@@ -38,7 +42,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e3JGcF5eT01RbGZP",
+          "min_value": "Q1N6YGFwfGdKY0le"
         }
       }
     },
@@ -52,7 +58,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e3NYdnc=",
+          "min_value": "R1VDVVFD"
         }
       }
     },
@@ -66,7 +74,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "enFockxKXEU=",
+          "min_value": "RkhaXVhNdVlQT1FoaXw="
         }
       }
     },
@@ -80,7 +90,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dl1wRlF0Ymc=",
+          "min_value": "QkZUYGd6UUtk"
         }
       }
     },
@@ -94,7 +106,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bktUYVdJ",
+          "min_value": "SlFGU3I="
         }
       }
     },
@@ -108,7 +122,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dmh8e21OZw==",
+          "min_value": "QntuZnlRRFNrd3lbZQ=="
         }
       }
     },
@@ -122,7 +138,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "emd2QkF7SnVyRFlUVA==",
+          "min_value": "UmRSRVtfZnNJR3BvRnU="
         }
       }
     },
@@ -136,7 +154,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "akFPZF91XE5XQVpB",
+          "min_value": "SkV2WlZm"
         }
       }
     },
@@ -150,7 +170,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eVpRS0dJU1lQYA==",
+          "min_value": "RXdwZWZXQnhqY3A="
         }
       }
     },
@@ -164,7 +186,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eWRCclJU",
+          "min_value": "VWBcd3xdbFxJb2dl"
         }
       }
     },
@@ -178,7 +202,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "emZceGxoV21j",
+          "min_value": "Tk98VkZuRlFKTw=="
         }
       }
     },
@@ -192,7 +218,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dlxWe3M=",
+          "min_value": "RnhOa3c="
         }
       }
     },
@@ -206,7 +234,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dlFlVGhWXlNq",
+          "min_value": "Qm5IbktcTXNJWA=="
         }
       }
     },
@@ -220,7 +250,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dldrdG5u",
+          "min_value": "QmlcYEZwSE5hR1g="
         }
       }
     },
@@ -234,7 +266,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "cnZzSXNc",
+          "min_value": "SnxOS1F7YQ=="
         }
       }
     },
@@ -248,7 +282,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dlhIe0xNXUNa",
+          "min_value": "QmJ2Zlc="
         }
       }
     },
@@ -262,7 +298,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "cndJT0hvZGVh",
+          "min_value": "SkxaRHVW"
         }
       }
     },
@@ -276,7 +314,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "emFwaWdBU0h7cA==",
+          "min_value": "RnNiXHJE"
         }
       }
     },
@@ -290,7 +330,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "cWtnV055dQ==",
+          "min_value": "RWZ5XHhOQXRnb2BrR3c="
         }
       }
     },
@@ -304,7 +346,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eVRLcW1LY2g=",
+          "min_value": "TUhkd1o="
         }
       }
     },
@@ -318,7 +362,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "ek1leEJeVmhoUHU=",
+          "min_value": "RnJIVmBseVRGW2xuXA=="
         }
       }
     },
@@ -332,7 +378,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dktfe1JPbg==",
+          "min_value": "Rl9XY01haA=="
         }
       }
     },
@@ -346,7 +394,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bnRtVEdMXU9nWFU=",
+          "min_value": "QlZRbl1aS25FZExn"
         }
       }
     },
@@ -360,7 +410,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dXp1R1haQ0ZSWHBqVU8=",
+          "min_value": "SW5LTEVqQ3l6R2M="
         }
       }
     },
@@ -374,7 +426,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "aUtIbElFdVRM",
+          "min_value": "QUlnbmNkVFJfeA=="
         }
       }
     },
@@ -388,7 +442,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eEdheXNV",
+          "min_value": "RFpTZEJYSVhFT0M="
         }
       }
     },
@@ -402,7 +458,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "aV9bZW5jcWk=",
+          "min_value": "QV1zaEx7WG57"
         }
       }
     },
@@ -416,7 +474,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eXx7eEhpX0x6",
+          "min_value": "RWVfVmZ2TXRgbw=="
         }
       }
     },
@@ -430,7 +490,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eG9VRFZzcA==",
+          "min_value": "TXhZSXJ5"
         }
       }
     },
@@ -444,7 +506,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "cGVkWUNwX2BLYHw=",
+          "min_value": "RFl1Xm1FXk8="
         }
       }
     },
@@ -458,7 +522,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fE9vYXxyQklLd0pneA==",
+          "min_value": "SGFpVEt0U1VY"
         }
       }
     },
@@ -472,7 +538,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fERBdnFvZXI=",
+          "min_value": "TGRFUFVbYg=="
         }
       }
     },
@@ -486,7 +554,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dHlbQUZGUHpMWF8=",
+          "min_value": "SGJ7W11Mel1mW1di"
         }
       }
     },
@@ -500,7 +570,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fFBNaFJJaQ==",
+          "min_value": "SVVbTFhhdXVCU1pCeg=="
         }
       }
     },
@@ -514,7 +586,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "aXZYbGR3a1BIRUQ=",
+          "min_value": "QUthWUxeZGE="
         }
       }
     },
@@ -528,7 +602,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eGpqcVFMa0c=",
+          "min_value": "REFbZFxPSFtBW3d3YQ=="
         }
       }
     },
@@ -542,7 +618,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "aUZkXURZcGxcbQ==",
+          "min_value": "RFRVT2daWWdP"
         }
       }
     },
@@ -556,7 +634,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eXZ1am5qbw==",
+          "min_value": "RU1nVnltRG9de0d6"
         }
       }
     },
@@ -570,7 +650,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dWJCR3JYdg==",
+          "min_value": "TV9hSVBwXkc="
         }
       }
     },
@@ -584,7 +666,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "ZXheaFRK",
+          "min_value": "RHxCXkt3VVN3Uw=="
         }
       }
     },
@@ -598,7 +682,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fHp4YVM=",
+          "min_value": "SElxTGZrSllUZ3o="
         }
       }
     },
@@ -612,7 +698,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dGdKdkdlXHV2XA==",
+          "min_value": "UFtje3Fu"
         }
       }
     },
@@ -626,7 +714,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dGBkfFl5T3VIXFdwSA==",
+          "min_value": "SEpHUndKeWFjZ05IZUI="
         }
       }
     },
@@ -640,7 +730,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fHNWZ2x8YE1W",
+          "min_value": "UG9vbVE="
         }
       }
     },
@@ -654,7 +746,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eGlQa3R0RHtqcGt1TEo=",
+          "min_value": "R1BYRkxYXw=="
         }
       }
     },
@@ -668,7 +762,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "b3tGWGNxZnthRFc=",
+          "min_value": "S0ZSUVxId0JiU0V6Zw=="
         }
       }
     },
@@ -682,7 +778,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "d1xmc0ZDVV98SE5n",
+          "min_value": "Q29gXlFGZg=="
         }
       }
     },
@@ -696,7 +794,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eF5EeVc=",
+          "min_value": "TFldQkVne152e1F1"
         }
       }
     },
@@ -710,7 +810,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "a3JaYkhBcXVIbQ==",
+          "min_value": "REdsV21c"
         }
       }
     },
@@ -724,7 +826,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e2Zsb3JK",
+          "min_value": "R3lmW0FVRnlBR25u"
         }
       }
     },
@@ -738,7 +842,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e1pOcHhURlFOeFVwQWA=",
+          "min_value": "U1dmclY="
         }
       }
     },
@@ -752,7 +858,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "a3hjVVpOV2VvbF5dYA==",
+          "min_value": "R0NuTlo="
         }
       }
     },
@@ -766,7 +874,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e21aaWFySmVhW2FrTg==",
+          "min_value": "VnNLU3xrcGhUantD"
         }
       }
     },
@@ -780,7 +890,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "c0huT0JtW0VHUGpg",
+          "min_value": "R3hMVGx1W3g="
         }
       }
     },
@@ -794,7 +906,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "d1FaRV1gUUtoZEJkeQ==",
+          "min_value": "Q3ZGV3tme2pHb3V3Ulg="
         }
       }
     },
@@ -808,7 +922,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "d2NUbGhjYlc=",
+          "min_value": "QndjfGtjekVocGI="
         }
       }
     },
@@ -822,7 +938,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "elpjWWdRTV9veQ==",
+          "min_value": "Rm1dTHJT"
         }
       }
     },
@@ -836,7 +954,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "ckdxbVw=",
+          "min_value": "RkNPc0led0tNSHZg"
         }
       }
     },
@@ -850,7 +970,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e2ZvUlBvSXtG",
+          "min_value": "R3hpeVs="
         }
       }
     },
@@ -864,7 +986,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "c1tBX3hsdGd1eVNgRW8=",
+          "min_value": "T09bbGZ1c19haEY="
         }
       }
     },
@@ -878,7 +1002,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dlF3akxdV1lN",
+          "min_value": "RmxDRWF8c2tuXGplaA=="
         }
       }
     },
@@ -892,7 +1018,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bm5gQ0dcT21aYVM=",
+          "min_value": "Qmp5SXFtT2U="
         }
       }
     },
@@ -906,7 +1034,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dldDXWVqeVF1ZUpWTw==",
+          "min_value": "SnxrcHxwaHBTcElpbEI="
         }
       }
     },
@@ -920,7 +1050,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bm96Slg=",
+          "min_value": "SnVJdlFPUw=="
         }
       }
     },
@@ -934,7 +1066,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dlBdZHdB",
+          "min_value": "QmNXT0ZMQmVMUFZZ"
         }
       }
     },
@@ -948,7 +1082,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "emFRUlZ5Wg==",
+          "min_value": "WWVxSEViY1Rfe2w="
         }
       }
     },
@@ -962,7 +1098,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "cWt8fHl2fFdgTVpUXQ==",
+          "min_value": "SXtRcWpcdWhFcA=="
         }
       }
     },
@@ -976,7 +1114,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eVRoWlw=",
+          "min_value": "RV9aRWdKe05MeA=="
         }
       }
     },
@@ -990,7 +1130,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eU16YW1bVUM=",
+          "min_value": "VVtrU1RbRw=="
         }
       }
     },
@@ -1004,7 +1146,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eWBzTERebldaeF5iU0o=",
+          "min_value": "RXNle09pRGJn"
         }
       }
     },
@@ -1018,7 +1162,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bXVGeXJJZGU=",
+          "min_value": "QVZuV0xPSklm"
         }
       }
     },
@@ -1032,7 +1178,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dUN0ZEFMdXlZRXpbdko=",
+          "min_value": "VFpZTEN8VHltZ3NzTg=="
         }
       }
     },
@@ -1046,7 +1194,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fFx2SmVkdHxSZF1Z",
+          "min_value": "UEVZZHxpY2Bsb1RscQ=="
         }
       }
     },
@@ -1060,7 +1210,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dUpiXWt0TnBTRQ==",
+          "min_value": "SG9ocXBnSkw="
         }
       }
     },
@@ -1074,7 +1226,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dXRoclg=",
+          "min_value": "QV1UUXd3"
         }
       }
     },
@@ -1088,7 +1242,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "cWpidmhiVU9STQ==",
+          "min_value": "RWZ8e1ZrVA=="
         }
       }
     },
@@ -1102,7 +1258,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eVNOVEpoQ3ZsUEk=",
+          "min_value": "TXhtbmF2blpTXHxg"
         }
       }
     },
@@ -1116,7 +1274,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eXhwWm56YQ==",
+          "min_value": "RU5iRUVBelJISEVp"
         }
       }
     },
@@ -1130,7 +1290,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dW5qXUJrRWxPUWFi",
+          "min_value": "QURcSE1uVkQ="
         }
       }
     },
@@ -1144,7 +1306,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eUd8S1dc",
+          "min_value": "RVpuemJfQ2ZkaFE="
         }
       }
     },
@@ -1158,7 +1322,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bVxOeEh7W2BIbQ==",
+          "min_value": "QUV2T2ZNSUxjcG0="
         }
       }
     },
@@ -1172,7 +1338,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dW98Y1NK",
+          "min_value": "SWNaaUFTdGxBfGVw"
         }
       }
     },
@@ -1186,7 +1354,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fENCQnhaa3hOcExzaVE=",
+          "min_value": "UGhiXFo="
         }
       }
     },
@@ -1200,7 +1370,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "aG9tVVN0cmY=",
+          "min_value": "REF4TUtLR2piXA=="
         }
       }
     },
@@ -1214,7 +1386,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eGtKWnxIcl5VeWlsWFk=",
+          "min_value": "RFRqdFY="
         }
       }
     },
@@ -1228,7 +1402,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "cVlrdUZZTFJOWUJb",
+          "min_value": "RU1Ie2hpS0pC"
         }
       }
     },
@@ -1242,7 +1418,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eXZWU11ndnJxXHVuZQ==",
+          "min_value": "THJoWUpvdmlcSw=="
         }
       }
     },
@@ -1256,7 +1434,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eGptVGNpS1VHeVg=",
+          "min_value": "RHxeR3Z0"
         }
       }
     },
@@ -1270,7 +1450,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dFV1bGdXUnhORXQ=",
+          "min_value": "TFNQbkV3dXVpfE9s"
         }
       }
     },
@@ -1284,7 +1466,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fHNZSkJlfFtoSGxl",
+          "min_value": "R0lKeVVnUQ=="
         }
       }
     },
@@ -1298,7 +1482,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dGFFZUh1VlBpZQ==",
+          "min_value": "TF9cZ2pZclVBZ1s="
         }
       }
     },
@@ -1312,7 +1498,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fHRyUFs=",
+          "min_value": "SEpkQ2ZHRG9IcHg="
         }
       }
     },
@@ -1326,7 +1514,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "c1RbZVZDXw==",
+          "min_value": "R1B0c3dUZmdvcFd2d2g="
         }
       }
     },
@@ -1340,7 +1530,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e2dNWGFGeEdVZV9iWg==",
+          "min_value": "T2NmXk9Xd3N8Uw=="
         }
       }
     },
@@ -1354,7 +1546,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "d11HXHFzVHU=",
+          "min_value": "Q3B1R3xCbUVucHNvXm8="
         }
       }
     },
@@ -1368,7 +1562,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "d15hYkZTR0FvUUxW",
+          "min_value": "S0ZvdktFQll7XA=="
         }
       }
     },
@@ -1382,7 +1578,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "d3FTTVFVWA==",
+          "min_value": "Q0dFfFxYcWFOXENpcw=="
         }
       }
     },
@@ -1396,7 +1594,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "a3N3S3R6",
+          "min_value": "S1J6Z3BbRnVb"
         }
       }
     },
@@ -1410,7 +1610,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bHlBa3pVSXNKUWRrZg==",
+          "min_value": "RHZZbVdtbHlmTEdJYEw="
         }
       }
     },
@@ -1424,7 +1626,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e2JhSlxbc19lVGNCR0s=",
+          "min_value": "R0NNZHI="
         }
       }
     },
@@ -1438,7 +1642,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dEhNXWJsTVNmcXBu",
+          "min_value": "T1Z6T0lsck5YQ1Y="
         }
       }
     },
@@ -1452,7 +1658,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fG5td3h5d3NEfG9FXA==",
+          "min_value": "SERealB8TEtS"
         }
       }
     },
@@ -1466,7 +1674,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eFl1U0FnQllLSEhyQw==",
+          "min_value": "RGRnRkxqU2VZ"
         }
       }
     },
@@ -1480,7 +1690,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "cEZHaHJlZUU=",
+          "min_value": "T0pvXWFObnZ5X0pD"
         }
       }
     },
@@ -1494,7 +1706,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "d0xPW0dyU3FdXW8=",
+          "min_value": "Q1dBRlJ1"
         }
       }
     },
@@ -1508,7 +1722,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "b0VpYlhJenlsXXh3alM=",
+          "min_value": "Q2p3dmV3QVxEaGZw"
         }
       }
     },
@@ -1522,7 +1738,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "d1hbTWxMT1F5fA==",
+          "min_value": "Q2tNfHc="
         }
       }
     },
@@ -1536,7 +1754,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e2FHQ0tIRFZeVFM=",
+          "min_value": "S0FHZ0ZaeXBXTHI="
         }
       }
     },
@@ -1550,7 +1770,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e05VUHM=",
+          "min_value": "R3NBalZL"
         }
       }
     },
@@ -1564,7 +1786,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "elRlS1FSVXY=",
+          "min_value": "TlB3UXo="
         }
       }
     },
@@ -1578,7 +1802,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bml0cEJxSklqUVdfWw==",
+          "min_value": "RmdXclxVbkZKVG5FVWI="
         }
       }
     },
@@ -1592,7 +1818,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "e1V3SmJlSHZDcEdp",
+          "min_value": "R2hxeW1oWQ=="
         }
       }
     },
@@ -1606,7 +1834,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bnVEYmdTTl1KeWNi",
+          "min_value": "R3JjZERzcmJddHp8ag=="
         }
       }
     },
@@ -1620,7 +1850,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dktxVXJWYA==",
+          "min_value": "Ql5rfEFheXxkfFp1UQ=="
         }
       }
     },
@@ -1634,7 +1866,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bmhaam1eX3xk",
+          "min_value": "QlFGSEdjRmBCXA=="
         }
       }
     },
@@ -1648,7 +1882,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dnpUVXg=",
+          "min_value": "SnZlYmVxcERdX3E="
         }
       }
     },
@@ -1662,7 +1898,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dnxmW018W1Q=",
+          "min_value": "Ql1RdmtGSnxe"
         }
       }
     },
@@ -1676,7 +1914,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "cnJgZ11te05QZWprX2o=",
+          "min_value": "QkpgTmBDdWhJXE5yeGo="
         }
       }
     },
@@ -1690,7 +1930,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "ekhaUmhwUFpd",
+          "min_value": "RltMRXs="
         }
       }
     },
@@ -1704,7 +1946,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "enduQ2NJTHJ1dA==",
+          "min_value": "RmZ5bEp1e3p3VA=="
         }
       }
     },
@@ -1718,7 +1962,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "blB8cFw=",
+          "min_value": "Rk5gcnZM"
         }
       }
     },
@@ -1732,7 +1978,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dnVoTnN1",
+          "min_value": "QkxadUJ4SXdaTHV7"
         }
       }
     },
@@ -1746,7 +1994,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "blxMYXlKRWBGQVN7SE0=",
+          "min_value": "R2JrY1c="
         }
       }
     },
@@ -1760,7 +2010,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dm96VEhVVmxU",
+          "min_value": "QkV0fFs="
         }
       }
     },
@@ -1774,7 +2026,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bk9iaUNUVnhgXXI=",
+          "min_value": "Qkt8b2xlVm8="
         }
       }
     },
@@ -1788,7 +2042,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dmJcVVZfZw==",
+          "min_value": "Sl5uWnhob0dZa2BQRFw="
         }
       }
     },
@@ -1802,7 +2058,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eWtIS3FTXFU=",
+          "min_value": "RVRoZUtZS3Vu"
         }
       }
     },
@@ -1816,7 +2074,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "YmVXWU5bc1Jh",
+          "min_value": "RUF2cnxWdmlgdEFJZ1w="
         }
       }
     },
@@ -1830,7 +2090,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "emxiUUZmT15ZVFY=",
+          "min_value": "Tl90V3B3T1U="
         }
       }
     },
@@ -1844,7 +2106,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "ekJUeFFxYQ==",
+          "min_value": "RlVGbF10ekF0YE1MfA=="
         }
       }
     },
@@ -1858,7 +2122,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "eXFqRVg=",
+          "min_value": "RUhcbGtCRmFSdA=="
         }
       }
     },
@@ -1872,7 +2138,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dVVzXVw=",
+          "min_value": "QWhkSGdsTXtZfA=="
         }
       }
     },
@@ -1886,7 +2154,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "bUp5aklfZ1x7",
+          "min_value": "QXpWd3Jv"
         }
       }
     },
@@ -1900,7 +2170,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dWlCTnlEfEdffF1CVmQ=",
+          "min_value": "QXtwQVBHUVt1"
         }
       }
     },
@@ -1914,7 +2186,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "dVZJY21BY3g=",
+          "min_value": "SUpiaFs="
         }
       }
     },
@@ -1928,7 +2202,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "fG9LQVZRYg==",
+          "min_value": "SFBqXGxfUV8="
         }
       }
     },
@@ -1942,7 +2218,9 @@
         "definition_level_encoding": "BIT_PACKED",
         "repetition_level_encoding": "BIT_PACKED",
         "statistics": {
-          "null_count": 0
+          "null_count": 0,
+          "max_value": "aGlne3g=",
+          "min_value": "SHl4cWFce0tgYHx8"
         }
       }
     }

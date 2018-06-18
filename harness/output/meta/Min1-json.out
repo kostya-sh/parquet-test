@@ -28,18 +28,27 @@
             ],
             "codec": "UNCOMPRESSED",
             "num_values": 1,
-            "total_uncompressed_size": 28,
-            "total_compressed_size": 28,
+            "total_uncompressed_size": 34,
+            "total_compressed_size": 34,
             "data_page_offset": 4,
             "statistics": {
               "max": "AQ==",
               "min": "AQ==",
-              "null_count": 0
-            }
+              "null_count": 0,
+              "max_value": "AQ==",
+              "min_value": "AQ=="
+            },
+            "encoding_stats": [
+              {
+                "page_type": "DATA_PAGE",
+                "encoding": "PLAIN",
+                "count": 1
+              }
+            ]
           }
         }
       ],
-      "total_byte_size": 28,
+      "total_byte_size": 34,
       "num_rows": 1
     }
   ],
@@ -47,7 +56,16 @@
     {
       "key": "parquet.avro.schema",
       "value": "{\"type\":\"record\",\"name\":\"Min\",\"namespace\":\"models\",\"fields\":[{\"name\":\"f\",\"type\":\"boolean\"}]}"
+    },
+    {
+      "key": "writer.model.name",
+      "value": "avro"
     }
   ],
-  "created_by": "parquet-mr (build 6aa21f8776625b5fa6b18059cfebe7549f2e00cb)"
+  "created_by": "parquet-mr version 1.10.0 (build 031a6654009e3b82020012a18434c582bd74c73a)",
+  "column_orders": [
+    {
+      "TYPE_ORDER": {}
+    }
+  ]
 }
