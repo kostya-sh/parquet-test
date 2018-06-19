@@ -15,6 +15,7 @@ import java.util.Random;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
+import org.apache.parquet.column.ParquetProperties.WriterVersion;
 import org.apache.parquet.example.data.Group;
 import org.apache.parquet.example.data.simple.NanoTime;
 import org.apache.parquet.example.data.simple.SimpleGroup;
@@ -42,6 +43,10 @@ public class AllTypesDict {
         if (args.length > 1) {
         	codec = CompressionCodecName.valueOf(args[1].toUpperCase());
         }
+        WriterVersion version = WriterVersion.PARQUET_1_0;
+        if (args.length > 2) {
+        	version = WriterVersion.valueOf(args[2].toUpperCase());
+        }
 
         MessageType schema = new MessageType("AllTypes",
         		new PrimitiveType(REQUIRED, BOOLEAN, "Boolean"),
@@ -59,6 +64,7 @@ public class AllTypesDict {
         GroupWriteSupport.setSchema(schema, conf);
         ParquetWriter<Group> w = new GroupParquetWriterBuilder(p)
                 .withConf(conf)
+                .withWriterVersion(version)
                 .withPageSize(64)
                 .withDictionaryEncoding(true)
                 .withRowGroupSize(1024*1024)

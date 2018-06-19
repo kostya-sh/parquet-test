@@ -10,6 +10,7 @@ import java.io.File;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
+import org.apache.parquet.column.ParquetProperties.WriterVersion;
 import org.apache.parquet.example.data.Group;
 import org.apache.parquet.example.data.simple.SimpleGroup;
 import org.apache.parquet.hadoop.ParquetWriter;
@@ -27,13 +28,17 @@ public class ByteArraysGen {
         if (args.length > 1) {
         	codec = CompressionCodecName.valueOf(args[1].toUpperCase());
         }
+        WriterVersion version = WriterVersion.PARQUET_1_0;
+        if (args.length > 2) {
+        	version = WriterVersion.valueOf(args[2].toUpperCase());
+        }
 
         MessageType schema =
                 new MessageType("ByteArrays",
                     new PrimitiveType(REQUIRED, BINARY, "Required", UTF8),
                     new PrimitiveType(OPTIONAL, BINARY, "Optional", UTF8),
                     new PrimitiveType(REPEATED, BINARY, "Repeated", UTF8),
-                    new PrimitiveType(REQUIRED, BINARY, "Dict", UTF8));
+                    new PrimitiveType(OPTIONAL, BINARY, "Dict", UTF8));
         // from minimal to full
         SimpleGroup r1 = new SimpleGroup(schema);
         r1.add("Required", "r1");
@@ -74,6 +79,7 @@ public class ByteArraysGen {
         GroupWriteSupport.setSchema(schema, conf);
         ParquetWriter<Group> w = new GroupParquetWriterBuilder(p)
         		.withConf(conf)
+        		.withWriterVersion(version)
         		.withCompressionCodec(codec)
         		.build();
         w.write(r1);
