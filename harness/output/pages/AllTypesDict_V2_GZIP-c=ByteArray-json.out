@@ -1,0 +1,51 @@
+[
+  [
+    {
+      "type": "DICTIONARY_PAGE",
+      "uncompressed_page_size": 65,
+      "compressed_page_size": 79,
+      "dictionary_page_header": {
+        "num_values": 5,
+        "encoding": "PLAIN"
+      }
+    },
+    {
+      "type": "DATA_PAGE_V2",
+      "uncompressed_page_size": 41,
+      "compressed_page_size": 62,
+      "data_page_header_v2": {
+        "num_values": 100,
+        "num_nulls": 0,
+        "num_rows": 100,
+        "encoding": "RLE_DICTIONARY",
+        "definition_levels_byte_length": 0,
+        "repetition_levels_byte_length": 0,
+        "is_compressed": true,
+        "statistics": {
+          "null_count": 0,
+          "max_value": "cnBkdkxWaE9SUnZXZA==",
+          "min_value": "RHtcbmBvaw=="
+        }
+      }
+    },
+    {
+      "type": "DATA_PAGE_V2",
+      "uncompressed_page_size": 41,
+      "compressed_page_size": 62,
+      "data_page_header_v2": {
+        "num_values": 100,
+        "num_nulls": 0,
+        "num_rows": 100,
+        "encoding": "RLE_DICTIONARY",
+        "definition_levels_byte_length": 0,
+        "repetition_levels_byte_length": 0,
+        "is_compressed": true,
+        "statistics": {
+          "null_count": 0,
+          "max_value": "cnBkdkxWaE9SUnZXZA==",
+          "min_value": "RHtcbmBvaw=="
+        }
+      }
+    }
+  ]
+]

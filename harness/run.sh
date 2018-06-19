@@ -63,11 +63,14 @@ run_test Min1 meta -json
 run_test DremelPaperExample meta -json
 run_test AllTypes1000 meta -json
 run_test AllTypesDict meta -json
+run_test AllTypesDict_V2_GZIP meta -json
+
 
 run_test Min1 schema
 run_test DremelPaperExample schema
 run_test AllTypes1000 schema
 run_test AllTypesDict schema
+
 
 run_test AllTypes1000 dump -c=RequiredBoolean
 run_test AllTypes1000 dump -c=RequiredBinary
@@ -92,6 +95,7 @@ run_test AllTypesDict dump -c=Int32
 run_test AllTypesDict dump -c=Int64
 run_test AllTypesDict dump -c=Int96
 
+
 run_test AllTypes1000 pages -c=RequiredBoolean -json
 run_test AllTypes1000 pages -c=RequiredBinary -json
 
@@ -99,6 +103,10 @@ run_test DremelPaperExample pages -c=Name.Language.Code -json
 
 run_test AllTypesDict pages -c=ByteArray -json
 
+run_test AllTypesDict_V2_GZIP pages -c=ByteArray -json
+
+run_test AllTypesDict_V2 pages -c=ByteArray -json
+
+
 run_test AllTypesDict csv
 run_test AllTypesDict_GZIP csv
-
