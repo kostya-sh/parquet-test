@@ -110,3 +110,5 @@ run_test AllTypesDict_V2 pages -c=ByteArray -json
 
 run_test AllTypesDict csv
 run_test AllTypesDict_GZIP csv
+run_test AllTypesDict_V2 csv
+run_test AllTypesDict_V2_GZIP csv
