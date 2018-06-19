@@ -1,6 +1,15 @@
 [
   [
     {
+      "type": "DICTIONARY_PAGE",
+      "uncompressed_page_size": 65,
+      "compressed_page_size": 65,
+      "dictionary_page_header": {
+        "num_values": 5,
+        "encoding": "PLAIN_DICTIONARY"
+      }
+    },
+    {
       "type": "DATA_PAGE",
       "uncompressed_page_size": 41,
       "compressed_page_size": 41,
@@ -14,10 +23,6 @@
           "max_value": "cnBkdkxWaE9SUnZXZA==",
           "min_value": "RHtcbmBvaw=="
         }
-      },
-      "dictionary_page_header": {
-        "num_values": 5,
-        "encoding": "PLAIN_DICTIONARY"
       }
     },
     {
