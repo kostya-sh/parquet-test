@@ -112,3 +112,14 @@ run_test AllTypesDict csv
 run_test AllTypesDict_GZIP csv
 run_test AllTypesDict_V2 csv
 run_test AllTypesDict_V2_GZIP csv
+
+run_test ext/parquet-compatibility/1.1.1-NONE_nation.impala csv
+run_test ext/parquet-compatibility/1.1.1-GZIP_nation.impala csv
+run_test ext/parquet-compatibility/1.1.1-NONE_customer.impala csv
+run_test ext/parquet-compatibility/1.1.1-GZIP_customer.impala csv
+
+run_test ext/kylo/userdata1 csv
+run_test ext/kylo/userdata2 csv
+run_test ext/kylo/userdata3 csv
+run_test ext/kylo/userdata4 csv
+run_test ext/kylo/userdata5 csv
