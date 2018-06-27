@@ -9,6 +9,9 @@ all: \
 harness/input/AllTypes1000.parquet: data-gen/src/main/java/gen/AllTypesMultiPageGen.java
 	cd data-gen; mvn exec:java -Dexec.mainClass=gen.AllTypesMultiPageGen -Dexec.args=../harness/input/AllTypes1000.parquet
 
+harness/input/AllTypes1000_V2.parquet: data-gen/src/main/java/gen/AllTypesMultiPageGen.java
+	cd data-gen; mvn exec:java -Dexec.mainClass=gen.AllTypesMultiPageGen "-Dexec.args=../harness/input/AllTypes1000_V2.parquet UNCOMPRESSED PARQUET_2_0"
+
 harness/input/AllTypesDict.parquet: data-gen/src/main/java/gen/AllTypesDict.java
 	cd data-gen; mvn exec:java -Dexec.mainClass=gen.AllTypesDict -Dexec.args=../harness/input/AllTypesDict.parquet
 

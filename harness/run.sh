@@ -62,6 +62,7 @@ function run_test {
 run_test Min1 meta -json
 run_test DremelPaperExample meta -json
 run_test AllTypes1000 meta -json
+run_test AllTypes1000_V2 meta -json
 run_test AllTypesDict meta -json
 run_test AllTypesDict_V2_GZIP meta -json
 
@@ -80,6 +81,8 @@ run_test AllTypes1000 dump -c=RequiredDouble
 run_test AllTypes1000 dump -c=RequiredInt32
 run_test AllTypes1000 dump -c=RequiredInt64
 run_test AllTypes1000 dump -c=RequiredInt96
+
+run_test AllTypes1000_V2 dump -c=RequiredInt32
 
 run_test DremelPaperExample dump -c=DocId -levels
 run_test DremelPaperExample dump -c=Links.Backward -levels
