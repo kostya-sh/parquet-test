@@ -2,8 +2,10 @@ package enc;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Random;
 
 import org.apache.parquet.column.values.bitpacking.BytePacker;
+import org.apache.parquet.column.values.bitpacking.BytePackerForLong;
 import org.apache.parquet.column.values.bitpacking.Packer;
 
 public class GenerateBitPackingTestCases {
@@ -21,6 +23,18 @@ public class GenerateBitPackingTestCases {
         System.out.print("{\n" + bp.getBitWidth() + ", \n[]byte{");
         printBytes(out);
         System.out.print("},\n [8]int32");
+        System.out.print(Arrays.toString(in).replace("[", "{")
+                .replace("]", "},\n"));
+        System.out.println("},");
+    }
+    
+    private static void printTestCase(BytePackerForLong bp, long[] in) {
+        byte[] out = new byte[bp.getBitWidth()];
+        bp.pack8Values(in, 0, out, 0);
+
+        System.out.print("{\n" + bp.getBitWidth() + ", \n[]byte{");
+        printBytes(out);
+        System.out.print("},\n [8]int64");
         System.out.print(Arrays.toString(in).replace("[", "{")
                 .replace("]", "},\n"));
         System.out.println("},");
@@ -70,6 +84,25 @@ public class GenerateBitPackingTestCases {
         System.out.println();
     }
 
+    private static void generateLong(int n) {
+        BytePackerForLong packer = Packer.LITTLE_ENDIAN.newBytePackerForLong(n);
+        System.out.println("// bit width = " + n);
+        printTestCase(packer, new long[] { 0, 0, 0, 0, 0, 0, 0, 0 });
+        printTestCase(packer, new long[] { 0, 1, 2, 3, 4, 5, 6, 7 });
+        printTestCase(packer, new long[] { 7, 6, 5, 4, 3, 2, 1, 0 });
+        long[] values = new long[8];
+        for (long i = (1L << n) - 1, j =0; j < 8; i--, j++) {
+        	values[(int) j] = i;
+        }
+        printTestCase(packer, values);
+        Random rnd = new Random(n);
+        for (int i = 0; i < 8; i++) {
+        	values[i] = Math.abs(rnd.nextLong() % (1 << Math.min(62, n)));
+        }
+        printTestCase(packer, values);
+        System.out.println();
+    }
+    
     public static void main(String[] args) throws IOException {
         generate1();
         generate2();
@@ -77,6 +110,10 @@ public class GenerateBitPackingTestCases {
         generate4();
         for (int i = 5; i <= 32; i++) {
         	generate(i);
+        }
+        
+        for (int i = 3; i <= 64; i++) {
+        	generateLong(i);
         }
     }
 }
