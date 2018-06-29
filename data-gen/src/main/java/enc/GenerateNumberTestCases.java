@@ -7,6 +7,7 @@ import java.util.Random;
 
 import org.apache.parquet.bytes.HeapByteBufferAllocator;
 import org.apache.parquet.column.values.delta.DeltaBinaryPackingValuesWriterForInteger;
+import org.apache.parquet.column.values.delta.DeltaBinaryPackingValuesWriterForLong;
 import org.apache.parquet.column.values.plain.PlainValuesWriter;
 
 public class GenerateNumberTestCases {
@@ -95,6 +96,21 @@ public class GenerateNumberTestCases {
         printLine();
     }
     
+    private static void genDeltaInt64s(long... values) throws IOException {
+        DeltaBinaryPackingValuesWriterForLong w = new DeltaBinaryPackingValuesWriterForLong(128, 8, 10000, 10000, A);
+        for (long v: values) {
+        	w.writeLong(v);
+        }
+        
+        printBytes(w.getBytes().toByteArray());
+    
+        out.print("decoded: []interface{} {");
+        for (long v: values) {
+        	out.print("int64(" + v + "), ");
+        }
+        out.println("},\n},\n");      
+    }
+    
     public static int[] rangeInt(int s, int e) {
     	int[] r = new int[e-s+1];
     	for (int i = s; i <= e; i++) {
@@ -111,6 +127,14 @@ public class GenerateNumberTestCases {
     	}
     	return r;
     }
+
+    public static long[] rangeLong(int s, int e) {
+    	long[] r = new long[e-s+1];
+    	for (int i = s; i <= e; i++) {
+    		r[i-s] = i;
+    	}
+    	return r;
+    }
     
     public static void main(String[] args) throws IOException {
     	genFloats();
@@ -122,5 +146,9 @@ public class GenerateNumberTestCases {
     	genDeltaInt32s(200_003, 200_001, 200_002, 200_003, 200_002, 200_001, 200_000);
     	genDeltaInt32s(rangeInt(1, 20));
     	genDeltaInt32s(randInts(200));
+    	
+    	genDeltaInt64s(Long.MIN_VALUE, Long.MAX_VALUE, 0, -100, 234);
+    	genDeltaInt64s(rangeLong(-7, 9));
+    	genDeltaInt64s(rangeLong(1000, 1200));
     }
 } 
