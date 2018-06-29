@@ -88,7 +88,7 @@ run_test AllTypes1000_V2 dump -c=RequiredFixed10
 run_test AllTypes1000_V2 dump -c=RequiredFloat
 run_test AllTypes1000_V2 dump -c=RequiredDouble
 run_test AllTypes1000_V2 dump -c=RequiredInt32
-#run_test AllTypes1000_V2 dump -c=RequiredInt64
+run_test AllTypes1000_V2 dump -c=RequiredInt64
 run_test AllTypes1000_V2 dump -c=RequiredInt96
 
 run_test DremelPaperExample dump -c=DocId -levels
@@ -117,6 +117,8 @@ run_test AllTypesDict_V2_GZIP pages -c=ByteArray -json
 
 run_test AllTypesDict_V2 pages -c=ByteArray -json
 
+run_test AllTypes1000 csv -H
+run_test AllTypes1000_V2 csv -H
 
 run_test AllTypesDict csv
 run_test AllTypesDict_GZIP csv
