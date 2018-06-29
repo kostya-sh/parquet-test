@@ -125,11 +125,28 @@ run_test AllTypesDict_V2_GZIP csv
 
 run_test ext/parquet-compatibility/1.1.1-NONE_nation.impala csv
 run_test ext/parquet-compatibility/1.1.1-GZIP_nation.impala csv
+run_test ext/parquet-compatibility/1.1.1-SNAPPY_nation.impala csv
 run_test ext/parquet-compatibility/1.1.1-NONE_customer.impala csv
 run_test ext/parquet-compatibility/1.1.1-GZIP_customer.impala csv
+run_test ext/parquet-compatibility/1.1.1-SNAPPY_customer.impala csv
 
 run_test ext/kylo/userdata1 csv
 run_test ext/kylo/userdata2 csv
 run_test ext/kylo/userdata3 csv
 run_test ext/kylo/userdata4 csv
 run_test ext/kylo/userdata5 csv
+
+run_test ext/sqlite-parquet-vtable/99-rows-1 csv
+run_test ext/sqlite-parquet-vtable/99-rows-10 csv
+run_test ext/sqlite-parquet-vtable/99-rows-99 csv
+run_test ext/sqlite-parquet-vtable/99-rows-nulls-1 csv
+run_test ext/sqlite-parquet-vtable/99-rows-nulls-10 csv
+run_test ext/sqlite-parquet-vtable/99-rows-nulls-99 csv
+#run_test ext/sqlite-parquet-vtable/codecs/brotli csv
+run_test ext/sqlite-parquet-vtable/codecs/gzip csv
+#run_test ext/sqlite-parquet-vtable/codecs/snappy csv
+run_test ext/sqlite-parquet-vtable/unsupported-decimal-10-0- csv
+run_test ext/sqlite-parquet-vtable/unsupported-null csv
+run_test ext/sqlite-parquet-vtable/unsupported-uint16 csv
+run_test ext/sqlite-parquet-vtable/unsupported-uint64 csv
+run_test ext/sqlite-parquet-vtable/unsupported-uint8 csv

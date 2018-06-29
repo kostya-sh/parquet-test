@@ -43,3 +43,6 @@ ByteArrays_V2:
 
 ByteArrays_V2_GZIP:
 	cd data-gen; mvn exec:java -Dexec.mainClass=gen.ByteArraysGen -Dexec.args="../../parquet-go/parquet/testdata/ByteArrays_V2_GZIP.parquet GZIP PARQUET_2_0"
+
+ByteArrays_V2_SNAPPY:
+	cd data-gen; mvn exec:java -Dexec.mainClass=gen.ByteArraysGen -Dexec.args="../../parquet-go/parquet/testdata/ByteArrays_V2_SNAPPY.parquet SNAPPY PARQUET_2_0"
