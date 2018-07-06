@@ -8,6 +8,10 @@ if [ "$1" == "create" ] ; then
     CREATE=yes
 fi
 
+failed=0
+errors=0
+passed=0
+
 # run_test <file name from input dir> <parqueteur command> <command options>
 function run_test {
     local file=$1
@@ -21,6 +25,7 @@ function run_test {
     local input=$INPUTDIR/$file.parquet
     if [ ! -f $input ] ; then
         echo "ERROR: input file $input doesn't exist"
+        let "errors++"
         return 1
     fi
 
@@ -28,6 +33,7 @@ function run_test {
     local expected_out=$OUTPUTDIR/$cmd/$file$opts.out
     if [ ! "$CREATE" == "yes" -a ! -f $expected_out ] ; then
         echo "ERROR: file $expected_out with the expected output doesn't exist"
+        let "errors++"
         return 2
     fi
 
@@ -43,6 +49,7 @@ function run_test {
     local e=$?
     if [ $e -ne 0 ] ; then
         echo "FAIL: non-zero return code $e"
+        let "errors++"
         return 3
     fi
 
@@ -51,9 +58,11 @@ function run_test {
         e=$?
         if [ $e -ne 0 ] ; then
             echo "FAIL"
+            let "failed++"
             return $e
         else
             echo "PASS"
+            let "passed++"
             return 0
         fi
     fi
@@ -152,3 +161,6 @@ run_test ext/sqlite-parquet-vtable/unsupported-null csv
 run_test ext/sqlite-parquet-vtable/unsupported-uint16 csv
 run_test ext/sqlite-parquet-vtable/unsupported-uint64 csv
 run_test ext/sqlite-parquet-vtable/unsupported-uint8 csv
+
+
+echo "PASSED: $passed, FAILED: $failed, ERRORS: $errors"
