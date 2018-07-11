@@ -6,3 +6,7 @@
 # maven
 target
 
+# go-fuzz
+fuzz/*/*.zip
+fuzz/*/crashers/
+fuzz/*/supressions/
