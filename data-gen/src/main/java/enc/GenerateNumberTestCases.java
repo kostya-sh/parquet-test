@@ -6,8 +6,11 @@ import java.io.IOException;
 import java.util.Random;
 
 import org.apache.parquet.bytes.HeapByteBufferAllocator;
+import org.apache.parquet.column.Encoding;
 import org.apache.parquet.column.values.delta.DeltaBinaryPackingValuesWriterForInteger;
 import org.apache.parquet.column.values.delta.DeltaBinaryPackingValuesWriterForLong;
+import org.apache.parquet.column.values.dictionary.DictionaryValuesWriter;
+import org.apache.parquet.column.values.dictionary.DictionaryValuesWriter.PlainFloatDictionaryValuesWriter;
 import org.apache.parquet.column.values.plain.PlainValuesWriter;
 
 public class GenerateNumberTestCases {
@@ -37,6 +40,22 @@ public class GenerateNumberTestCases {
 
         printBytes(w.getBytes().toByteArray());
         printLine();
+    }
+    
+    private static void genFloatsDict(float... values) throws IOException {
+    	PlainFloatDictionaryValuesWriter w = new PlainFloatDictionaryValuesWriter(10000, Encoding.RLE, Encoding.PLAIN, A);
+        for (float v: values) {
+        	w.writeFloat(v);
+        }
+        
+        printBytes(w.getBytes().toByteArray());
+        printBytes(w.toDictPageAndClose().getBytes().toByteArray());
+    
+        out.print("decoded: []interface{} {");
+        for (float v: values) {
+        	out.print("float32(" + v + "), ");
+        }
+        out.println("},\n},\n");      
     }
 
     private static void genDoubles() throws IOException {
@@ -150,5 +169,8 @@ public class GenerateNumberTestCases {
     	genDeltaInt64s(Long.MIN_VALUE, Long.MAX_VALUE, 0, -100, 234);
     	genDeltaInt64s(rangeLong(-7, 9));
     	genDeltaInt64s(rangeLong(1000, 1200));
+    	
+    	genFloatsDict(Float.MIN_VALUE, Float.NaN, 0.0f, 100.123f, Float.MAX_VALUE, 0.0f, 100.123f,
+    			100.1f, 100.2f, 100.3f, 100.1f, 100.1f, 100.1f, 100.1f, 100.3f);
     }
 } 
