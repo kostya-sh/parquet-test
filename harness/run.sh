@@ -162,5 +162,13 @@ run_test ext/sqlite-parquet-vtable/unsupported-uint16 csv
 run_test ext/sqlite-parquet-vtable/unsupported-uint64 csv
 run_test ext/sqlite-parquet-vtable/unsupported-uint8 csv
 
+run_test ext/parquet-cpp/PARQUET-843 csv -H
+run_test ext/parquet-cpp/alltypes_dictionary csv -H
+run_test ext/parquet-cpp/alltypes_plain csv -H
+run_test ext/parquet-cpp/alltypes_plain.snappy csv -H
+run_test ext/parquet-cpp/fixed_length_decimal csv -H
+run_test ext/parquet-cpp/fixed_length_decimal_legacy csv -H
+run_test ext/parquet-cpp/int32_decimal csv -H
+run_test ext/parquet-cpp/int64_decimal csv -H
 
 echo "PASSED: $passed, FAILED: $failed, ERRORS: $errors"
