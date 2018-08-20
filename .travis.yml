@@ -1,7 +1,13 @@
 language: go
 
 go:
-- 1.5.2
+- tip
+- 1.11.x
+- 1.10.x
+
+matrix:
+  allow_failures:
+    - go: tip
 
 install: true
 
