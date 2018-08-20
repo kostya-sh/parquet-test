@@ -6,5 +6,5 @@ go:
 install: true
 
 script:
-- go get github.com/kostya-sh/parquet-go/parqueteur
+- go get github.com/kostya-sh/parquet-go/cmd/parqueteur
 - harness/run.sh
